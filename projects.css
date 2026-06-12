@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color: lightcyan;
+    height:70px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:0 30px;
+}
+
+header h1{
+    color:black;
+}
+
+#button{
+    display:flex;
+    gap:20px;
+}
+
+#button button{
+    background-color:rgb(57,77,97);
+    color:white;
+    border:none;
+    border-radius:10px;
+    width:90px;
+    height:40px;
+    cursor:pointer;
+}
+
+#button button:hover{
+    background-color:black;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+}
+
+.container1 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;   /* 🔥 IMPORTANT: single row */
+    gap: 20px;
+    padding: 40px;
+    overflow-x: auto;    /* 🔥 mobile lo scroll avvadaniki */
+    margin-bottom: 30px;
+}
+
+/* Card Design */
+.card {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: aqua;
+    transition: 0.5ms;
+    transform: scale(1.1);
+}
+
+/* Text */
+.card h2 {
+    color: #1e3a8a;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #1e3a8a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+@media screen and (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button{
+        width: 90%;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container,
+    .content,
+    .about-container,
+    .projects-container,
+    .contact-container{
+        width: 95%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        text-align: center;
+    }
+}

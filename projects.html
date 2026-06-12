@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome To My Portfolio</h1>
+
+        <div id="button">
+            <button id="but1">Home</button>
+            <button id="but2">About</button>
+            <button id="but3">Skills</button>
+            <button id="but4">Projects</button>
+            <button id="but5">Contact</button>
+        </div>
+</header>
+     
+<section class="container1">
+    <center><h1>My Projects</h1></center>
+    <center><p>Showcasing my Python & Web Development Work</p></center>
+</section>    
+    <section class="container">    
+    <!-- Project 1 -->
+    <div class="card">
+        <h2>Password Strength Checker</h2>
+        <p>
+            A Python Tkinter application that checks password strength
+            and gives security suggestions.
+        </p>
+
+        <h4>Tech Stack:</h4>
+        <p>Python, Tkinter, Regex</p>
+
+        <button onclick="openPSC()">Launch Project</button>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card">
+        <h2>ATM System</h2>
+        <p>
+            A Python-based ATM simulation system with login, withdraw,
+            deposit and balance check features.
+        </p>
+
+        <h4>Tech Stack:</h4>
+        <p>Python</p>
+
+        <button onclick="openATM()">Launch Project</button>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card">
+        <h2>Portfolio Website</h2>
+        <p>
+            A responsive personal portfolio website to showcase skills,
+            projects and contact information.
+        </p>
+
+        <h4>Tech Stack:</h4>
+        <p>HTML, CSS, JavaScript</p>
+
+        <button onclick="openPortfolio()">Visit Portfolio</button>
+    </div>
+
+</section>
+
+<script src="projects.js"></script>
+
+</body>
+</html>

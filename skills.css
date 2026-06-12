@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: lightcyan;
+    height:70px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding:0 30px;
+}
+
+header h1{
+    color:black;
+}
+
+#button{
+    display:flex;
+    gap:20px;
+}
+
+#button button{
+    background-color:rgb(57,77,97);
+    color:white;
+    border:none;
+    border-radius:10px;
+    width:90px;
+    height:40px;
+    cursor:pointer;
+}
+
+#button button:hover{
+    background-color:black;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+
+#skills{
+    background-color: lightsteelblue;
+    min-height: 100vh;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#skills h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.intro{
+    max-width: 700px;
+    margin: 0 auto 50px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+#html-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#html-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+#css-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#css-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+#js-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#js-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+#react-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#react-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+#python-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#python-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+#github-card{
+    background-color: rgb(57, 77, 97);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#github-card:hover{
+    transform: scale(1.08);
+    background-color: black;
+}
+
+@media screen and (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button{
+        width: 90%;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container,
+    .content,
+    .about-container,
+    .projects-container,
+    .contact-container{
+        width: 95%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
